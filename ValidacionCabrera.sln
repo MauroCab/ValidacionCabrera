@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidacionCabrera", "ValidacionCabrera\ValidacionCabrera.csproj", "{29544EAB-D7AD-4416-8AFE-26E1B5A42126}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidacionCabrera.BE", "ValidacionCabrera.BE\ValidacionCabrera.BE.csproj", "{E2FEAF8B-8584-46DB-8AE8-C84B4F5A537B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29544EAB-D7AD-4416-8AFE-26E1B5A42126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29544EAB-D7AD-4416-8AFE-26E1B5A42126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29544EAB-D7AD-4416-8AFE-26E1B5A42126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29544EAB-D7AD-4416-8AFE-26E1B5A42126}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FEAF8B-8584-46DB-8AE8-C84B4F5A537B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FEAF8B-8584-46DB-8AE8-C84B4F5A537B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FEAF8B-8584-46DB-8AE8-C84B4F5A537B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FEAF8B-8584-46DB-8AE8-C84B4F5A537B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37668BBF-0BBE-4BA1-982F-35DB977585BF}
+	EndGlobalSection
+EndGlobal
