@@ -18,35 +18,37 @@ namespace ValidacionCabrera.BE
             }
             //Si el textbox patente esta vacio o es nulo devuelve false
 
-            if(patente.Length == 6 || patente.Length == 7)
+            
+            
+            if (patente.Length == 6)
             {
-                if (patente.Length == 6)
+                if(Char.IsLetter(patente, 0) && Char.IsLetter(patente, 1) && Char.IsLetter(patente, 2))
                 {
-                    if(Char.IsLetter(patente, 0) && Char.IsLetter(patente, 1) && Char.IsLetter(patente, 2))
+                    if(Char.IsDigit(patente, 3) && Char.IsDigit(patente, 4) && Char.IsDigit(patente, 5))
                     {
-                        if(Char.IsDigit(patente, 3) && Char.IsDigit(patente, 4) && Char.IsDigit(patente, 5))
-                        {
-                            return true;
-                        }
+                        return true;
                     }
                 }
+            }
 
-                if (patente.Length == 7)
+            if (patente.Length == 7)
+            {
+                if (Char.IsLetter(patente, 0) && Char.IsLetter(patente, 1))
                 {
-                    if (Char.IsLetter(patente, 0) && Char.IsLetter(patente, 1))
+                    if (Char.IsDigit(patente, 2) && Char.IsDigit(patente, 3) && Char.IsDigit(patente, 4))
                     {
-                        if (Char.IsDigit(patente, 2) && Char.IsDigit(patente, 3) && Char.IsDigit(patente, 4))
+                        if (Char.IsLetter(patente, 5) && Char.IsLetter(patente, 6))
                         {
-                            if (Char.IsLetter(patente, 5) && Char.IsLetter(patente, 6))
-                            {
-                                return true;
-                            }
+                            return true;
                         }
                     }
                 }
             }
 
             return false;
+        
+
+            
             
         }
 
